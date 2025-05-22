@@ -4,14 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page - Cloudaffle Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/css_reset.css"/>
   <link rel="stylesheet" href="./styles/variables.css"/>
   <link rel="stylesheet" href="./styles/style.css"/>
+
   <link
    rel="stylesheet"
    media="screen and (max-width: 980px)"
     href="./styles/mobile.css"/>
 </head>
 <body>
-  
+  <header class="header">
+    <div class="header-wrapper">
+      <img 
+      src="./images/cloudaffle-logo.png" 
+      alt="Website Logo" 
+      class="logo"/>
+      <nav class="nav-bar">
+        <ul class="nav-menu">
+          <li><a href="">Home</a></li>
+           <li><a href="">Blog</a></li>
+            <li><a href="">Single Post</a></li>
+             <li><a href="">Pages</a></li>
+              <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <span class="search-container">
+        <input type="text" placeholder="Search" class="search-input"/>
+      </span>
+    </div>
+  </header>
 </body>
 </html>
