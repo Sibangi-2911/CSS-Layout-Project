@@ -128,3 +128,12 @@
   width: 48px;
   height: auto;
 }
+ /*for latest posts*/
+ .blogs-section{
+  margin-top: 10rem;
+ }
+ .blogs-section h1{
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+ }
