@@ -7,3 +7,35 @@
 .hero-image{
   min-height: 250px;
 }
+.hero-section{
+  position: static;
+}
+.hero-description{
+  width: 80%;
+  left: 10%;
+  padding: 20px;
+  top: 300px;
+}
+.hero-description h1 a {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.blogs-section{
+  margin-top: 16rem;
+ }
+ .single-post {
+  flex-basis: 100%;
+ }
+ .footer-wrapper {
+  max-width: 100%;
+  margin: 0;
+  justify-content: center;
+ }
+ .footer-links {
+  flex-direction: column;
+  row-gap: 20px;
+ }
+ .footer-links li {
+  border: none;
+ }
+ 
